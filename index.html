@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      a. Head
+      <script>
+            document.write("hello world") 
+      </script>
+      <style>
+            
+      button {
+            font-size: 1.1em;
+            background-color: #EBF5FF;
+            color: #4312AE;
+            border: 2px solid black;
+            box-shadow: 4px 4px 4px #999999;
+      }
+
+      button:hover,
+      button:focus,
+      button:active {
+            /* swap colors */
+            color: #EBF5FF;
+            background-color: #4312AE;
+            cursor: pointer;
+            /* displays a hand */
+      }
+</style>
+</head>
+<!-- Body (before your page’s HTML) -->
+<script>
+      document.write("hello world");
+</script>
+<body>
+<!-- Body (inside your page’s HTML) -->
+      <script src="index.js">
+
+
+      </script>
+      <button onclick="showAlert()">Show alert</button>
+</body>
+Body (after your page’s HTML)
+<script>
+      document.write("hello world");
+</script>
+</html>
